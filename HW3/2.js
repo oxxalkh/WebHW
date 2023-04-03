@@ -8,8 +8,7 @@
 function greeting() {
     let name = prompt('Введите ваше имя');
     msg = `Привет, ${name}!`;
-    return msg;
+    return console.log(msg);
 };
 
 greeting();
-console.log(msg);
